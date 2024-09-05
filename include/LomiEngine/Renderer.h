@@ -11,7 +11,8 @@ namespace LomiEngine {
         Renderer();
         ~Renderer();
 
-        void render();
+        void init();
+        void cleanup();
     };
 }
 
